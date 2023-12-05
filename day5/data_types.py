@@ -11,8 +11,15 @@
 # print("Mod", num_1 % num_2)
 # print("Mul", num_1 * num_2)
 
-num_1 = complex(1,2) #explicit
-num_1 = 1+2j #implicit
+# num_1 = complex(1,2) #explicit
+# num_1 = 1+2j #implicit
 
-print(type(num_1))
+# print(type(num_1))
+
+# print(num_1.real)
+# print(num_1.imag)
+
+
+
+
 
