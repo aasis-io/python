@@ -50,3 +50,22 @@ percentage = 65
 #         print("Fail")
 
 
+
+# fruits = ["orange", "orange", "orange", "orange", "orange", "orange"]
+
+# for i in fruits:
+#     print(i)
+
+# full_name = "Ashish Thapa"
+
+# for character in full_name:
+#     print(character)
+
+
+phonebook = {
+    'ram' : 987987,
+    'shyam': 98798
+}
+
+for character in phonebook:
+    print(character)
