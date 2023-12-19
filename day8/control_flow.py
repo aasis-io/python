@@ -62,10 +62,10 @@ percentage = 65
 #     print(character)
 
 
-phonebook = {
-    'ram' : 987987,
-    'shyam': 98798
-}
+# phonebook = {
+#     'ram' : 987987,
+#     'shyam': 98798
+# }
 
-for character in phonebook:
-    print(character)
+# for character in phonebook:
+#     print(character)
