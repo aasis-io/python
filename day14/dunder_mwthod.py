@@ -8,9 +8,7 @@ class BankAccount:
     def printAccount(self):
         print(f"Name: {self.name}, Address: {self.address}, Balance: {self.__balance}")
 
-    
 
 bankAccount = BankAccount("Ashish Thapa", "Satungal", 60000)
 
 bankAccount.printAccount()
-
