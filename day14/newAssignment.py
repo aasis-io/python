@@ -64,5 +64,4 @@ developer1.print_details()
 
 
 print("green github")
-print("green github")
-print("green github")
+print("green github")print("green github")print("green github")print("green github")print("green github")
