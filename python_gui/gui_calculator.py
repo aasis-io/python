@@ -8,11 +8,18 @@ window = tk.Tk()
 window.geometry("500x400")
 window.title("Hello World")
 
+
+input_label1 = ttk.Label(master = window, text="Number 1=", font = font.Font(size=16))
+input_label1.grid(row = 1, column = 0,pady = 10)
+
 my_textfield = ttk.Entry(master = window)
-my_textfield.place(x=180, y=100)
+my_textfield.grid(row = 1, column = 1,pady = 10)
+
+input_label2 = ttk.Label(master = window, text="Number 2=", font = font.Font(size=16))
+input_label2.grid(row = 2, column = 0,pady = 10)
 
 my_textfield2 = ttk.Entry(master = window)
-my_textfield2.place(x=180, y=140)
+my_textfield2.grid(row = 2 , column = 1,pady = 10)
 
 
 #Button
@@ -26,9 +33,9 @@ def  my_button_handler():
 
 
 my_button = ttk.Button(master = window, text="Add", command = my_button_handler)
-my_button.place(x = 180, y = 180)
+my_button.grid(row = 3, column = 1, sticky="w", pady = 10)
 
 result_label = ttk.Label(master = window, text="Result=", font = font.Font(size=16))
-result_label.place(x = 180, y = 220)
+result_label.grid(row = 4, column = 0, columnspan=2, pady = 10)
 
 window.mainloop()
